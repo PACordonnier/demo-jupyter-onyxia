@@ -2,7 +2,7 @@
 
 # 1. Définition des variables (adaptez le chemin S3 si nécessaire)
 BUCKET_DEST="s3/pacordonnier/results_demo_$(date +%Y%m%d)"
-LOCAL_DIR="./results"
+LOCAL_DIR="$HOME/work/results"
 
 echo "📤 Début de l'exportation des résultats vers S3..."
 
